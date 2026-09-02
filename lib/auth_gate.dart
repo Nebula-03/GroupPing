@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'login_page.dart';
-import 'home_page.dart';
+import 'screens/auth/login_screen.dart';
+import 'screens/groups/groups_screen.dart';
 
 class AuthGate extends StatelessWidget {
   const AuthGate({super.key});
@@ -18,9 +18,9 @@ class AuthGate extends StatelessWidget {
         }
 
         if (snapshot.hasData) {
-          return HomePage();
+          return const GroupsScreen();
         } else {
-          return const LoginPage();
+          return const LoginScreen();
         }
       },
     );
