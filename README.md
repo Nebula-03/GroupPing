@@ -56,4 +56,4 @@ This project demonstrates **authentication workflows, real-time database integra
 ## 👤 Author
 
 **Nikita Mandal**  
-Flutter Developer | UI/UX Enthusiast
+Backend Developer
