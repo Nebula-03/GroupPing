@@ -1,6 +1,6 @@
-# 💬 KitChat – Group Chat Mobile Application
+# 💬 GoupPing – Group Chat Mobile Application
 
-KitChat is a Flutter-based **real-time group chat application** built using **Firebase Authentication and Cloud Firestore**.  
+GoupPing is a Flutter-based **real-time group chat application** built using **Firebase Authentication and Cloud Firestore**.  
 The app enables secure user login and instant messaging with a clean, responsive UI.
 
 This project demonstrates **authentication workflows, real-time database integration, and dynamic UI updates** in Flutter.
